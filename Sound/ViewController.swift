@@ -29,7 +29,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func touchUpDrumButton(){
+        
         drumButton.setImage(UIImage(named: "drumImage"), for: .normal)
+        
     }
 }
 
